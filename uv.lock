@@ -1275,7 +1275,7 @@ dev = [
     { name = "pytest" },
     { name = "ruff" },
 ]
-notebooks = [
+examples = [
     { name = "jupyterlab" },
     { name = "matplotlib" },
     { name = "scikit-learn" },
@@ -1283,16 +1283,16 @@ notebooks = [
 
 [package.metadata]
 requires-dist = [
-    { name = "jupyterlab", marker = "extra == 'notebooks'", specifier = ">=4" },
-    { name = "matplotlib", marker = "extra == 'notebooks'", specifier = ">=3.8" },
+    { name = "jupyterlab", marker = "extra == 'examples'", specifier = ">=4" },
+    { name = "matplotlib", marker = "extra == 'examples'", specifier = ">=3.8" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.10" },
     { name = "numpy", specifier = ">=1.26" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.5" },
-    { name = "scikit-learn", marker = "extra == 'notebooks'", specifier = ">=1.4" },
+    { name = "scikit-learn", marker = "extra == 'examples'", specifier = ">=1.4" },
     { name = "scipy", specifier = ">=1.11" },
 ]
-provides-extras = ["dev", "notebooks"]
+provides-extras = ["dev", "examples"]
 
 [[package]]
 name = "librt"

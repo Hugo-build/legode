@@ -19,7 +19,7 @@ dev = [
     "pytest>=8",
     "ruff>=0.5",
 ]
-notebooks = [
+examples = [
     "jupyterlab>=4",
     "matplotlib>=3.8",
     "scikit-learn>=1.4",

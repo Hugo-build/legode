@@ -111,7 +111,8 @@ a mapping.
 
 ## Studies
 
-Notebook-like scripts live in [`notebooks`](notebooks/README.md). The Duffing
-study builds exact and Kriging-surrogate systems with LEGOde, solves both
-through SciPy, and tracks physical residual against the number of exact
-right-hand-side training evaluations.
+Studies live in [`examples`](examples/README.md). Each study has its own folder
+containing its scripts, notebooks, and generated results. The Duffing study
+builds exact and Kriging-surrogate systems with LEGOde, solves both through
+SciPy, and tracks physical residual against the number of exact right-hand-side
+training evaluations.
