@@ -1,6 +1,6 @@
 # LEGOde
 
-![legode_logo](assets/legode_logo1.png){width=50%}
+![legode_logo](assets/legode_logo2.png)
 
 LEGOde is a typed Python toolbox for assembling reusable numerical terms into
 implicit ordinary differential equations:
